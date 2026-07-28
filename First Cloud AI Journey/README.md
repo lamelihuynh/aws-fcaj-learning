@@ -1,20 +1,26 @@
-# First Cloud AI Journey - Personal Learning Map
+# First Cloud AI Journey - Bản đồ học tập cá nhân
 
-This folder is my organized learning map for the AWS First Cloud AI Journey internship. The notes, lab summaries, checklists, and module indexes are arranged so the folder can be read as a complete personal study portfolio.
+Thư mục này là phần minh chứng học tập cho báo cáo AWS FCAJ. Mình tách rõ hai loại nội dung:
 
-## Module Index
+- `module-xx-ly-thuyet-...md`: ghi chú lý thuyết, khái niệm, lựa chọn kiến trúc và cách dùng trong báo cáo.
+- `Hands-on Labs/lab-xx-...md`: bài thực hành bám theo workshop AWS Study Group, có mục tiêu cá nhân, luồng kiểm chứng và cleanup.
 
-| Module | Focus | Main Notes | Practice Evidence |
-| --- | --- | --- | --- |
-| 1 | Cloud foundations, AWS account access, IAM Identity Center | [Cloud foundations and identity notes](Module%201/cloud-foundations-identity-notes.md) | [Identity Center access control lab](Module%201/Hands-on%20Labs/identity-center-access-control-lab.md) |
-| 2 | Amazon VPC, routing, network security, ELB | [VPC networking and load balancing notes](Module%202/vpc-networking-load-balancing-notes.md) | [Network design practice checklist](Module%202/Hands-on%20Labs/network-design-practice-checklist.md) |
-| 3 | Amazon EC2, EBS, AMI, Auto Scaling, shared storage overview | [EC2 compute and storage operations notes](Module%203/ec2-compute-storage-operations-notes.md) | [Compute operations practice checklist](Module%203/Hands-on%20Labs/compute-operations-practice-checklist.md) |
-| 4 | Amazon S3, CloudFront, Storage Gateway, FSx, DR and AWS Backup | [S3, hybrid storage and DR notes](Module%204/s3-hybrid-storage-dr-notes.md) | [S3 and CloudFront lab](Module%204/Hands-on%20Labs/s3-cloudfront-static-site-lab.md), [Storage Gateway lab](Module%204/Hands-on%20Labs/storage-gateway-file-share-lab.md), [FSx lab](Module%204/Hands-on%20Labs/fsx-windows-shared-storage-lab.md) |
-| 5 | IAM, Organizations, Cognito, KMS, Security Hub and audit controls | [Security, IAM and KMS governance notes](Module%205/security-iam-kms-governance-notes.md) | [IAM role lab](Module%205/Hands-on%20Labs/iam-users-roles-mfa-lab.md), [KMS audit lab](Module%205/Hands-on%20Labs/kms-s3-audit-encryption-lab.md), [Security Hub lab](Module%205/Hands-on%20Labs/security-hub-baseline-lab.md) |
-| 6 | RDS, Aurora, Redshift, ElastiCache and database migration | [Database services and cache notes](Module%206/database-services-cache-notes.md) | [Database selection practice checklist](Module%206/Hands-on%20Labs/database-selection-practice-checklist.md) |
+Cách viết này giúp repo không giống bản mẫu cũ chỉ gom chung file module và file lab, đồng thời vẫn giữ được khả năng truy vết về workshop cộng đồng.
 
-## How This Folder Supports the Report
+## Bảng module
 
-- Weeks 1-3 use these notes for AWS foundations, networking, compute, storage, security and databases.
-- Weeks 4-9 reuse the same fundamentals when explaining ECR, ECS Fargate, Lambda, CloudWatch, GitOps and the final workshop website.
-- The files are written as personal study evidence: what I learned, how I verified it, what mistakes to watch for and how the topic appears in the final architecture.
+| Module | Chủ đề | Ghi chú | Lab | Tuần liên quan |
+| --- | --- | --- | --- | --- |
+| 1 | Nền tảng cloud, tài khoản AWS và định danh | [Lý thuyết](Module%201/module-01-ly-thuyet-cloud-account-identity.md) | [Lab tiêu biểu](Module%201/Hands-on%20Labs/lab-12-iam-identity-center.md) | Tuần 1 |
+| 2 | Amazon VPC, routing và bảo mật mạng | [Lý thuyết](Module%202/module-02-ly-thuyet-vpc-networking-security.md) | [Lab tiêu biểu](Module%202/Hands-on%20Labs/lab-03-vpc-site-to-site-vpn.md) | Tuần 1 |
+| 3 | Amazon EC2, EBS, AMI và Auto Scaling | [Lý thuyết](Module%203/module-03-ly-thuyet-ec2-ebs-auto-scaling.md) | [Lab tiêu biểu](Module%203/Hands-on%20Labs/lab-04-ec2-linux-windows-operations.md) | Tuần 2 |
+| 4 | Amazon S3, hybrid storage, backup và DR | [Lý thuyết](Module%204/module-04-ly-thuyet-s3-storage-backup-dr.md) | [Lab tiêu biểu](Module%204/Hands-on%20Labs/lab-57-s3-cloudfront-static-website.md) | Tuần 2 |
+| 5 | Security, IAM nâng cao, KMS và detection | [Lý thuyết](Module%205/module-05-ly-thuyet-security-iam-kms-detection.md) | [Lab tiêu biểu](Module%205/Hands-on%20Labs/lab-33-kms-s3-cloudtrail-athena.md) | Tuần 3 |
+| 6 | RDS, cache và lựa chọn dịch vụ dữ liệu | [Lý thuyết](Module%206/module-06-ly-thuyet-rds-cache-data-services.md) | [Lab tiêu biểu](Module%206/Hands-on%20Labs/lab-05-rds-application-backup.md) | Tuần 3 |
+| 7 | Containers, Amazon ECR, ECS Fargate và CI/CD | [Lý thuyết](Module%207/module-07-ly-thuyet-containers-ecr-ecs-cicd.md) | [Lab tiêu biểu](Module%207/Hands-on%20Labs/lab-16-ecs-fargate-alb-service.md) | Tuần 4-6 |
+| 8 | Serverless, observability và Infrastructure as Code | [Lý thuyết](Module%208/module-08-ly-thuyet-serverless-observability-iac.md) | [Lab tiêu biểu](Module%208/Hands-on%20Labs/lab-08-cloudwatch-logs-metrics-alarms.md) | Tuần 5-7 |
+| 9 | Kiến trúc DevSecOps, workshop và báo cáo cuối kỳ | [Lý thuyết](Module%209/module-09-ly-thuyet-architecture-devsecops-report.md) | [Lab tiêu biểu](Module%209/Hands-on%20Labs/lab-09-devsecops-architecture-checklist.md) | Tuần 8-9 |
+
+## Cách dùng với Worklog
+
+Mỗi ngày trong Worklog trỏ về đúng module hoặc lab đang học. Ví dụ: ngày học IAM Identity Center trỏ về Module 1 và `lab-12-iam-identity-center.md`; ngày học VPC trỏ về Module 2 và `lab-03-vpc-site-to-site-vpn.md`; ngày học ECS/Fargate trỏ về Module 7 và các lab `000016`, `000017`, `000096`.

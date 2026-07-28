@@ -1,0 +1,27 @@
+# Lab 04 - EC2 Linux/Windows, EBS Snapshot và AMI
+
+## Nguồn tham khảo chính
+
+- Workshop gốc: [000004 - Giới thiệu về Amazon EC2](https://000004.awsstudygroup.com/vi/)
+
+## Mục tiêu cá nhân
+
+Thực hành khởi tạo, kết nối và vận hành EC2 cơ bản trên Linux/Windows theo workshop EC2.
+
+## Luồng thực hành đã viết lại
+
+1. Tạo VPC/Security Group phù hợp cho Linux hoặc Windows instance.
+2. Launch EC2, kết nối bằng SSH/RDP hoặc Session Manager nếu có role.
+3. Thử user data hoặc cài web service mẫu để kiểm tra instance hoạt động.
+4. Tạo EBS snapshot và custom AMI để hiểu cơ chế sao lưu image.
+5. Ghi lại các lỗi thường gặp: key pair, inbound rule, public IP, user/administrator password.
+
+## Kiểm chứng cần có
+
+- Instance reachable đúng cách.
+- Snapshot/AMI được tạo và đặt tên có tag cleanup.
+- Security Group không mở rộng hơn nhu cầu lab.
+
+## Ghi chú cho báo cáo
+
+Lab này không sao chép nguyên văn workshop gốc. Nội dung được dùng như minh chứng cá nhân: tôi ghi lại mục tiêu, điểm cần kiểm chứng, lỗi cần tránh và cleanup sau khi thực hành. Khi đưa vào Worklog, link reference phải trỏ về đúng file lab này và workshop AWS Study Group tương ứng.
