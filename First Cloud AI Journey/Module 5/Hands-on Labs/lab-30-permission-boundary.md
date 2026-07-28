@@ -22,6 +22,6 @@ Thực hành giới hạn quyền tối đa của IAM user/role bằng permissio
 - Giải thích được boundary không tự cấp quyền nếu permission policy không allow.
 - Xóa user/role/policy lab.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Permission boundary ban đầu hơi dễ nhầm với policy cấp quyền. Mình ghi lại điểm chính: boundary chỉ giới hạn trần quyền, không tự cấp quyền.
+Permission boundary chỉ đặt giới hạn quyền tối đa, không tự cấp quyền. Effective permission vẫn phụ thuộc vào policy allow và các điều kiện deny khác.

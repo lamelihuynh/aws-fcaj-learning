@@ -22,6 +22,6 @@ Thực hành tách secret khỏi image/source code và inject secret vào worklo
 - Task role chỉ đọc secret cần thiết.
 - Cleanup secret hoặc schedule deletion sau lab.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Secrets Manager giúp tách secret khỏi image và source code. Khi dùng với Fargate, mình cần kiểm tra task role có quyền đọc đúng secret hay chưa.
+Secrets Manager giúp tách secret khỏi image và source code. ECS task role cần được cấp quyền đọc đúng secret ở phạm vi tối thiểu.

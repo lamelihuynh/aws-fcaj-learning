@@ -22,6 +22,6 @@ Ghi chú mô hình data lake căn bản trên S3 để so sánh với RDS/Redshi
 - Có mapping dịch vụ theo workload dữ liệu.
 - Không để dữ liệu lab public ngoài ý muốn.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Data lake trên S3 giúp mình so sánh dữ liệu dạng object với database quan hệ. Phần quan trọng là cách chia raw/processed/report và quyền đọc ghi theo prefix.
+Data lake trên S3 phù hợp cho dữ liệu dạng object và phân vùng theo raw/processed/report. Quyền truy cập nên được giới hạn theo bucket, prefix và vai trò xử lý dữ liệu.

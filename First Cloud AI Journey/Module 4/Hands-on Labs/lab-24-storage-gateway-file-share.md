@@ -22,6 +22,6 @@ Hiểu cách File Gateway kết nối môi trường giống on-premises với S
 - Role chỉ có quyền trên bucket lab.
 - Xóa gateway, file share, EC2 và bucket object sau lab.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Storage Gateway hơi dài bước chuẩn bị, nên mình giữ lại flow ngắn để nhớ mối liên hệ giữa file share và S3 bucket phía sau.
+Storage Gateway kết nối mô hình file share với S3 ở phía sau. Cần kiểm tra IAM role, bucket policy và trạng thái đồng bộ object sau khi ghi file qua share.

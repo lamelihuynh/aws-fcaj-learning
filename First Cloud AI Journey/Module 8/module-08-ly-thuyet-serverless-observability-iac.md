@@ -1,22 +1,22 @@
 # Module 08 - Serverless, observability và Infrastructure as Code
 
-## Mình học phần này để làm gì
+## Mục tiêu kỹ thuật
 
 Phần này hỗ trợ phần xử lý report và vận hành: Lambda, API Gateway, S3 trigger, CloudWatch Logs/Metrics/Alarms/Dashboard, X-Ray, CloudFormation và runbook xử lý sự cố.
 
-## Ý mình cần nhớ
+## Nội dung chính
 
 - Dùng Lambda cho tác vụ event-driven như tổng hợp file report khi S3 phát sinh object mới.
 - Đưa log ứng dụng, log Lambda và metric container về CloudWatch để điều tra theo thời gian.
 - Dùng CloudWatch Alarm/Budgets để phát hiện lỗi hoặc chi phí vượt ngưỡng sớm.
 - Dùng CloudFormation để mô tả tài nguyên lặp lại và hỗ trợ kiểm tra drift.
 
-## Dùng lại trong báo cáo
+## Ứng dụng trong báo cáo
 
 - Dùng trong Week 5 khi thiết kế Lambda aggregator.
 - Dùng trong Week 7 khi thiết kế dashboard, log query, alarm và cost guardrail.
 
-## Workshop mình tham khảo
+## Workshop tham khảo
 
 - [000008 - AWS CloudWatch Workshop](https://000008.awsstudygroup.com/vi/)
 - [000037 - AWS CloudFormation](https://000037.awsstudygroup.com/vi/)
@@ -29,7 +29,7 @@ Phần này hỗ trợ phần xử lý report và vận hành: Lambda, API Gatew
 - AWS Lambda Developer Guide: https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
 - Amazon CloudWatch User Guide: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html
 
-## Tự nhắc
+## Ghi chú kỹ thuật
 
-- Khi đưa vào báo cáo, mình cần gắn khái niệm với lab hoặc quyết định kiến trúc cụ thể.
-- Nếu nhắc tới dịch vụ này, mình nên nói thêm một rủi ro hoặc lỗi cấu hình dễ gặp.
+- Khi đưa vào báo cáo, cần liên kết khái niệm với lab hoặc quyết định kiến trúc cụ thể.
+- Với mỗi dịch vụ, nên nêu thêm rủi ro vận hành, lỗi cấu hình thường gặp hoặc điểm kiểm chứng.

@@ -22,6 +22,6 @@ Triển khai container trên ECS/Fargate với task definition, service, target 
 - Task log xuất hiện ở CloudWatch Logs.
 - Cleanup service, task, ALB và NAT Gateway nếu có.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-ECS Fargate có nhiều mảnh nhỏ nên mình ghi theo đường đi của request: ALB, target group, service, task và log. Khi lỗi health check thì đọc theo thứ tự đó sẽ dễ hơn.
+ECS Fargate service nên được kiểm tra theo đường đi request: ALB, target group, service, task, port mapping và log group. Cách kiểm tra tuần tự giúp giảm thời gian debug.

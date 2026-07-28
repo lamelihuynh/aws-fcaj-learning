@@ -22,6 +22,6 @@ Bật VPC Flow Logs và gửi log về CloudWatch Logs hoặc S3 để phục v�
 - Có thể phân biệt log bị chặn bởi rule mạng với lỗi ứng dụng.
 - Có cleanup log group/bucket nếu chỉ dùng cho lab.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Flow Logs là phần mình dùng để có bằng chứng khi nói traffic bị allow hay reject. Mình sẽ dùng lại ý này ở phần observability thay vì chỉ nói kiểm tra mạng bằng cảm giác.
+VPC Flow Logs cung cấp bằng chứng ACCEPT/REJECT cho lưu lượng mạng. Dữ liệu này hữu ích khi cần phân biệt lỗi route, rule mạng và lỗi tầng ứng dụng.

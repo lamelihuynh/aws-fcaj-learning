@@ -22,6 +22,6 @@ Thiết kế luồng build-scan-push-deploy cho ECS và hiểu các lựa chọn
 - Có điểm kiểm soát trước khi deploy production.
 - Secret không hard-code trong repository.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Pipeline này là xương sống cho phần DevSecOps cuối kỳ. Mình cần giữ rõ các bước build, scan, push, deploy và rollback để khi trình bày không bị lẫn.
+Pipeline DevSecOps cần tách rõ build, scan, push, deploy và rollback. Secret phải được quản lý qua cơ chế an toàn, không hard-code trong repository.

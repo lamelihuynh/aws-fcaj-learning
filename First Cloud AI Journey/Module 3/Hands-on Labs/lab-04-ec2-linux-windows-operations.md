@@ -22,6 +22,6 @@ Thực hành khởi tạo, kết nối và vận hành EC2 cơ bản trên Linux
 - Snapshot/AMI được tạo và đặt tên có tag cleanup.
 - Security Group không mở rộng hơn nhu cầu lab.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Lab EC2 giúp mình ghi lại các lỗi cơ bản như sai key pair, thiếu public IP hoặc mở sai port. Đây là phần nền để sau này so sánh EC2 với Fargate.
+Các lỗi EC2 thường gặp gồm sai key pair, thiếu public IP, inbound rule chưa đúng hoặc dùng sai user khi SSH/RDP. Nội dung này là nền để so sánh EC2 tự quản lý với ECS Fargate.

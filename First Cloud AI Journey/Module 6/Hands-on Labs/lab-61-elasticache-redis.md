@@ -22,6 +22,6 @@ Hiểu Redis cache trên AWS và cách ứng dụng kết nối cache trong subn
 - Redis không public internet.
 - Có ghi chú khi nào không nên dùng cache.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Redis cache chỉ nên xuất hiện khi có lý do về latency hoặc giảm tải đọc. Mình ghi lab này để không lẫn cache với database chính.
+Redis cache nên được dùng khi có nhu cầu giảm độ trễ hoặc giảm tải đọc. Cache không thay thế database chính và cần được đặt trong network private.

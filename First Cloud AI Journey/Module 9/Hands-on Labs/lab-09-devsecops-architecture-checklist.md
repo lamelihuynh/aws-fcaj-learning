@@ -6,7 +6,7 @@
 
 ## Mục tiêu
 
-Tổng hợp pipeline container, security gate, report artifact, observability và cleanup thành checklist workshop cá nhân.
+Tổng hợp pipeline container, security gate, report artifact, observability và cleanup thành checklist workshop.
 
 ## Luồng thực hành
 
@@ -22,6 +22,6 @@ Tổng hợp pipeline container, security gate, report artifact, observability v
 - Mỗi service có vai trò, permission và log/evidence rõ ràng.
 - Checklist đủ dùng cho báo cáo và demo.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Checklist này là bản nháp để ráp các phần đã học thành một kiến trúc hoàn chỉnh. Mình sẽ dùng nó khi kiểm lại diagram và workshop trước lúc nộp.
+Checklist kiến trúc cần liên kết từng thành phần với quyền IAM, network path, artifact, log và cleanup. Đây là cơ sở để kiểm tra workshop trước khi demo.

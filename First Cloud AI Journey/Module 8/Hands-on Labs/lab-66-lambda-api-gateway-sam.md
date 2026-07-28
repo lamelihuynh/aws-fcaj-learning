@@ -22,6 +22,6 @@ Hiểu serverless backend với Lambda, API Gateway, S3/DynamoDB/Cognito theo m�
 - Log CloudWatch cho thấy input/output hoặc lỗi.
 - Có note về IAM role của Lambda.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Serverless mình nhìn theo event: request hoặc object mới sẽ kích hoạt Lambda. Ý này khớp với Lambda aggregator xử lý report ở workshop cuối kỳ.
+Serverless nên được mô tả theo event source, function, permission và log. Mô hình này phù hợp với tác vụ xử lý report khi có object mới trên S3.

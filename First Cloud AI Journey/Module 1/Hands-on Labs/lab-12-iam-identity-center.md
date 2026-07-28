@@ -22,6 +22,6 @@ Thực hành quản lý định danh tập trung bằng IAM Identity Center, per
 - CLI hoạt động bằng credential tạm thời, không lưu access key dài hạn.
 - Có bước gỡ assignment hoặc xóa user lab khi hoàn tất.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Lab này giúp mình quen với cách đăng nhập bằng portal và credential tạm thời. Điểm mình cần nhớ là không lưu access key dài hạn chỉ để chạy vài lệnh CLI.
+IAM Identity Center phù hợp cho truy cập theo phiên và giảm phụ thuộc vào access key dài hạn. Khi dùng CLI, cần ưu tiên credential tạm thời và kiểm tra thời gian hết hạn của session.

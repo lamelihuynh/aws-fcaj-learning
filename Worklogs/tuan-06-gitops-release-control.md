@@ -1,8 +1,8 @@
 # Tuần 06 - GitOps, release control và rollback
 
-## Mình tập trung vào
+## Trọng tâm
 
-Tuần này mình ghi lại các phần đã học, lab đã xem và link workshop cần mở lại khi viết báo cáo.
+Tuần này ghi lại các nội dung đã học, lab đã tham khảo và workshop cần đối chiếu khi viết báo cáo.
 
 ## Theo ngày
 
@@ -14,7 +14,7 @@ Tuần này mình ghi lại các phần đã học, lab đã xem và link worksh
 | Thứ 5 | 23/07/2026 | Thiết kế production promotion với manual approval, controlled sync và rollback step. | [Lab 09 Architecture Checklist](../First%20Cloud%20AI%20Journey/Module%209/Hands-on%20Labs/lab-09-devsecops-architecture-checklist.md) | [000017 - CI/CD với ECS Container](https://000017.awsstudygroup.com/vi/)<br>[000037 - AWS CloudFormation](https://000037.awsstudygroup.com/vi/) |
 | Thứ 6 | 24/07/2026 | Hoàn thiện runbook credential, drift, rollback và incident note cho workshop. | [Module 9](../First%20Cloud%20AI%20Journey/Module%209/module-09-ly-thuyet-architecture-devsecops-report.md) | [000037 - AWS CloudFormation](https://000037.awsstudygroup.com/vi/)<br>[000031 - AWS Systems Manager](https://000031.awsstudygroup.com/vi/) |
 
-## Ghi chú cuối tuần
+## Kết quả chính
 
-- GitOps giúp mình nhìn deployment như một thay đổi có lịch sử, có rollback và có trạng thái sync rõ ràng.
-- Production promotion cần manual approval hoặc gate riêng, không nên đi cùng nhịp với staging.
+- GitOps giúp deployment có lịch sử thay đổi, trạng thái sync và phương án rollback rõ ràng.
+- Production promotion cần manual approval hoặc gate riêng, tách khỏi nhịp triển khai staging.

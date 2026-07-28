@@ -22,6 +22,6 @@ Thực hành đóng gói ứng dụng bằng Docker và đẩy image lên ECR, c
 - Tag không chỉ dùng latest.
 - Có cleanup image/repository nếu chỉ dùng lab.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Lab ECR mình tập trung vào tag và digest để biết image nào được build từ version nào. Dùng mỗi tag latest thì lúc debug sẽ rất khó truy ngược.
+ECR workflow cần có tag, digest và repository policy rõ ràng. Chỉ dùng tag latest sẽ gây khó khăn khi truy vết image về source commit hoặc release cụ thể.

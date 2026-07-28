@@ -22,6 +22,6 @@ Thực hành S3 bucket, upload object, versioning, static hosting và phân ph�
 - Không để bucket public ngoài phạm vi lab.
 - Có giải thích vì sao CloudFront tốt hơn mở public rộng.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-S3 là dịch vụ dễ làm public nhầm, nên mình ghi rõ Block Public Access, policy và hướng dùng CloudFront. Đây cũng là phần sẽ dùng lại cho report bucket ở dự án cuối.
+S3 dễ bị cấu hình public quá rộng. Cần kiểm tra Block Public Access, bucket policy, encryption, versioning và cân nhắc CloudFront cho lớp phân phối nội dung.

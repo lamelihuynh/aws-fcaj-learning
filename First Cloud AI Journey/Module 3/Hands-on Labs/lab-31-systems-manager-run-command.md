@@ -22,6 +22,6 @@ Thực hành quản lý EC2 bằng Systems Manager để giảm phụ thuộc v�
 - Chạy được command kiểm thử.
 - Biết cách troubleshoot khi managed instance không online.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Mình ghi lab này để nhớ rằng không phải lúc nào cũng cần mở SSH/RDP ra internet. Session Manager gọn hơn cho vận hành nếu role, agent và network đã đúng.
+Systems Manager giúp giảm nhu cầu mở SSH/RDP trực tiếp ra internet. Điều kiện chính gồm IAM role đúng, SSM Agent hoạt động và network path tới Systems Manager endpoint.

@@ -22,6 +22,6 @@ Thiết lập quan sát cơ bản cho workload bằng CloudWatch metric, log, al
 - Alarm hoặc dashboard phản ánh tình trạng workload.
 - Có retention thay vì giữ log vô hạn.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-CloudWatch mình ghi theo hướng dùng được khi có sự cố: log nằm ở đâu, metric nào quan trọng và alarm nào đáng bật. Retention cũng cần đặt để khỏi giữ log quá lâu.
+CloudWatch nên được cấu hình trước khi xảy ra lỗi. Log group, metric, alarm, dashboard và retention policy là các phần cần có trong vận hành workload.

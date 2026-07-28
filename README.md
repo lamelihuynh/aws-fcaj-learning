@@ -1,14 +1,14 @@
-# AWS FCAJ Learning - Kho minh chứng cá nhân
+# AWS FCAJ Learning - Tài liệu học tập và minh chứng thực hành
 
-Repo này là nơi mình gom lại ghi chú học AWS FCAJ: module lý thuyết, lab thực hành và worklog theo tuần. Mình viết bằng tiếng Việt để lúc đưa vào báo cáo không phải dịch lại quá nhiều.
+Repo này lưu tài liệu học AWS FCAJ theo ba nhóm: module lý thuyết, lab thực hành và worklog theo tuần. Nội dung được viết bằng tiếng Việt để thống nhất với báo cáo Hugo.
 
-## Cách mình sắp xếp
+## Cấu trúc nội dung
 
 - `module-xx-ly-thuyet-...md`: ghi chú lý thuyết và ý chính cần nhớ.
 - `Hands-on Labs/lab-xx-...md`: phần thực hành, kiểm chứng, lỗi cần tránh và cleanup.
 - `Worklogs/tuan-xx-...md`: nhật ký học theo tuần để nối lại với Hugo Worklog.
 
-Mình vẫn giữ mã lab như `12`, `57`, `98` trong tên file để nhìn vào là biết đang tham khảo workshop nào.
+Mã lab như `12`, `57`, `98` được giữ trong tên file để truy vết nhanh tới workshop AWS Study Group tương ứng.
 
 ## Cấu trúc repo
 
@@ -50,4 +50,4 @@ aws-fcaj-learning/
 
 ## Ghi chú
 
-Mỗi lab đều có link workshop gốc để mình dễ mở lại khi cần xem chi tiết. Phần ghi chú trong repo là bản tóm tắt theo cách mình học và cách mình muốn dùng lại trong báo cáo.
+Mỗi lab có link workshop gốc để đối chiếu khi cần xem chi tiết. Phần ghi chú trong repo tập trung vào mục tiêu kỹ thuật, luồng thực hành, kiểm chứng và cleanup.

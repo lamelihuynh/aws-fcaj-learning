@@ -1,8 +1,8 @@
 # Tuần 07 - CloudWatch, cost guardrail và vận hành
 
-## Mình tập trung vào
+## Trọng tâm
 
-Tuần này mình ghi lại các phần đã học, lab đã xem và link workshop cần mở lại khi viết báo cáo.
+Tuần này ghi lại các nội dung đã học, lab đã tham khảo và workshop cần đối chiếu khi viết báo cáo.
 
 ## Theo ngày
 
@@ -14,7 +14,7 @@ Tuần này mình ghi lại các phần đã học, lab đã xem và link worksh
 | Thứ 5 | 30/07/2026 | Tạo ghi chú cost guardrail bằng AWS Budgets, threshold notification và cleanup cadence. | [Lab 01 Free Tier](../First%20Cloud%20AI%20Journey/Module%201/Hands-on%20Labs/lab-01-free-tier-budget-guardrail.md) | [000007 - Quản lý chi phí với AWS Budgets](https://000007.awsstudygroup.com/vi/) |
 | Thứ 6 | 31/07/2026 | Viết incident drill: phát hiện lỗi, xem deployment, đọc log, kiểm tra target health và rollback/scale down. | [Lab 31 SSM](../First%20Cloud%20AI%20Journey/Module%203/Hands-on%20Labs/lab-31-systems-manager-run-command.md)<br>[Lab 98 GuardDuty](../First%20Cloud%20AI%20Journey/Module%205/Hands-on%20Labs/lab-98-guardduty-finding-practice.md) | [000031 - AWS Systems Manager](https://000031.awsstudygroup.com/vi/)<br>[000098 - Làm quen với Amazon GuardDuty qua thực hành](https://000098.awsstudygroup.com/vi/) |
 
-## Ghi chú cuối tuần
+## Kết quả chính
 
-- CloudWatch phải được chuẩn bị trước khi lỗi xảy ra: log group, query, metric và alarm cần có từ đầu.
-- Cost guardrail là một phần vận hành, nhất là với NAT Gateway, ALB, RDS hoặc log giữ quá lâu.
+- CloudWatch cần được chuẩn bị trước khi xảy ra lỗi: log group, query, metric, alarm và dashboard.
+- Cost guardrail là một phần vận hành, đặc biệt với NAT Gateway, ALB, RDS hoặc log retention dài.

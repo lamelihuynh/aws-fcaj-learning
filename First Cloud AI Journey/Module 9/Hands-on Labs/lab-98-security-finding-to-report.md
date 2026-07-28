@@ -22,6 +22,6 @@ Dùng GuardDuty/Security Hub/KMS/S3 evidence làm đầu vào cho phần báo c�
 - Có action cụ thể thay vì chỉ ghi “đã phát hiện”.
 - Không đưa dữ liệu nhạy cảm thật vào report public.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Phần này giúp mình chuyển finding thành câu chuyện vận hành: thấy gì, ảnh hưởng tài nguyên nào và xử lý ra sao. Không nên chỉ chụp finding rồi bỏ vào báo cáo.
+Security finding nên được chuyển thành thông tin vận hành: phát hiện gì, tài nguyên nào bị ảnh hưởng, mức độ nghiêm trọng và hành động xử lý đề xuất.

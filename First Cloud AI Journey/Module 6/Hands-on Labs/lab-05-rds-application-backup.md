@@ -22,6 +22,6 @@ Tạo RDS instance trong VPC, kết nối từ EC2/app mẫu và hiểu backup/r
 - Security Group chỉ cho phép source hợp lệ.
 - Có snapshot/backup minh chứng và cleanup DB sau lab.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-RDS mình ghi theo ba ý: đặt trong VPC, chỉ mở security group cho nguồn cần thiết và luôn biết backup/restore nằm ở đâu.
+RDS cần được đặt trong subnet phù hợp, giới hạn inbound từ nguồn hợp lệ và có backup/restore strategy rõ ràng. Không nên mở database public nếu không có yêu cầu cụ thể.

@@ -22,6 +22,6 @@ Thực hành file share Windows/SMB được quản lý và hiểu nhu cầu Act
 - Security Group chỉ mở port cần thiết.
 - Cleanup FSx và instance để tránh chi phí.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Lab FSx giúp mình phân biệt file share kiểu Windows/SMB với S3 object storage. Phần cleanup cần chú ý vì FSx để chạy lâu sẽ tốn phí.
+FSx for Windows File Server phù hợp cho workload cần SMB và tích hợp môi trường Windows/domain. Cần chú ý cleanup vì file system chạy lâu có thể phát sinh chi phí.

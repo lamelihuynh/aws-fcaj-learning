@@ -22,6 +22,6 @@ Làm quen với GuardDuty, cách phát hiện bất thường và cách đọc f
 - Có phân loại xử lý theo severity.
 - Có cleanup hoặc ghi chú trạng thái dịch vụ sau lab.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-GuardDuty mình xem như nguồn cảnh báo để tập đọc severity, resource và hướng xử lý. Phần này sẽ dùng lại khi viết security finding trong workshop cuối kỳ.
+GuardDuty là nguồn cảnh báo phục vụ phát hiện bất thường. Finding cần được đọc theo severity, resource, account/region và recommended action.

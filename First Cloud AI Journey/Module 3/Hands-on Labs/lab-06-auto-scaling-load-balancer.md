@@ -22,6 +22,6 @@ Thực hành Launch Template, Target Group, ALB và Auto Scaling Group để hi�
 - ASG thay instance lỗi hoặc duy trì desired capacity.
 - Có cleanup ALB, target group, ASG, launch template và instance.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Ở lab này mình chú ý nhiều tới health check và desired capacity. Nếu ALB báo unhealthy thì chưa vội kết luận app lỗi, phải kiểm tra target group, port mapping và security group.
+ALB health check và desired capacity là hai điểm cần kiểm tra trước khi kết luận ứng dụng lỗi. Target group, port mapping và Security Group phải khớp với cấu hình instance.

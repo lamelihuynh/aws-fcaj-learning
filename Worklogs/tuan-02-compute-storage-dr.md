@@ -1,8 +1,8 @@
 # Tuần 02 - EC2, storage, backup và DR
 
-## Mình tập trung vào
+## Trọng tâm
 
-Tuần này mình ghi lại các phần đã học, lab đã xem và link workshop cần mở lại khi viết báo cáo.
+Tuần này ghi lại các nội dung đã học, lab đã tham khảo và workshop cần đối chiếu khi viết báo cáo.
 
 ## Theo ngày
 
@@ -14,7 +14,7 @@ Tuần này mình ghi lại các phần đã học, lab đã xem và link worksh
 | Thứ 5 | 25/06/2026 | So sánh EFS, FSx và Storage Gateway; ghi lại luồng File Gateway và SMB share. | [Module 4](../First%20Cloud%20AI%20Journey/Module%204/module-04-ly-thuyet-s3-storage-backup-dr.md)<br>[Lab 24 Storage Gateway](../First%20Cloud%20AI%20Journey/Module%204/Hands-on%20Labs/lab-24-storage-gateway-file-share.md)<br>[Lab 25 FSx](../First%20Cloud%20AI%20Journey/Module%204/Hands-on%20Labs/lab-25-fsx-windows-file-share.md) | [000024 - Triển khai AWS Storage Gateway](https://000024.awsstudygroup.com/vi/)<br>[000025 - Triển khai FSx trên Windows](https://000025.awsstudygroup.com/vi/) |
 | Thứ 6 | 26/06/2026 | Lập bảng RTO/RPO, backup plan, retention và cleanup cho tài nguyên compute/storage. | [Module 4](../First%20Cloud%20AI%20Journey/Module%204/module-04-ly-thuyet-s3-storage-backup-dr.md)<br>[Lab 13 AWS Backup](../First%20Cloud%20AI%20Journey/Module%204/Hands-on%20Labs/lab-13-aws-backup-plan.md) | [000013 - AWS Backup cho hệ thống](https://000013.awsstudygroup.com/vi/)<br>[000100 - AWS Elastic Disaster Recovery Workshop](https://000100.awsstudygroup.com/vi/) |
 
-## Ghi chú cuối tuần
+## Kết quả chính
 
-- EC2, EBS, AMI và Auto Scaling giúp mình hiểu phần compute truyền thống trước khi chuyển sang container/serverless.
-- Storage không chỉ là S3; với file share, hybrid và backup thì phải chọn dịch vụ theo cách dữ liệu được dùng.
+- EC2, EBS, AMI và Auto Scaling cung cấp nền tảng compute truyền thống trước khi chuyển sang container hoặc serverless.
+- Storage cần được chọn theo cách dữ liệu được sử dụng: object, file share, hybrid access hoặc backup/restore.

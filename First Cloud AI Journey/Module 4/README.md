@@ -1,13 +1,13 @@
 # Module 04 - Amazon S3, hybrid storage, backup và disaster recovery
 
-## Phần này dùng để
+## Phạm vi module
 
 Phần này gom các chủ đề lưu trữ: S3, CloudFront, versioning, lifecycle, encryption, Storage Gateway, FSx for Windows File Server, AWS Backup và tư duy RTO/RPO cho DR.
 
 ## File trong thư mục
 
-- File `module-...md`: mình dùng để xem lại lý thuyết và ý chính.
-- Thư mục `Hands-on Labs/`: mình để các bước thực hành, phần kiểm chứng và ghi chú cleanup.
+- File `module-...md`: lưu phần lý thuyết, thuật ngữ và ý chính.
+- Thư mục `Hands-on Labs/`: lưu luồng thực hành, kiểm chứng và ghi chú cleanup.
 
 ## Ghi chú chính
 
@@ -24,4 +24,4 @@ Phần này gom các chủ đề lưu trữ: S3, CloudFront, versioning, lifecyc
 
 ## Gắn với Worklog
 
-Mình dùng phần này nhiều nhất ở **Tuần 2**. Một vài ý sẽ quay lại ở các tuần sau, nhất là khi ráp kiến trúc cuối kỳ.
+Module này được dùng chính trong **Tuần 2** và tiếp tục hỗ trợ các phần kiến trúc, vận hành hoặc cleanup ở những tuần sau.

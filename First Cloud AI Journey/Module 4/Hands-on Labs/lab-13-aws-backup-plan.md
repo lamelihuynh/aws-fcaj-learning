@@ -22,6 +22,6 @@ Tạo kế hoạch backup tập trung cho tài nguyên AWS và hiểu quan hệ 
 - Có retention phù hợp thay vì giữ vô hạn.
 - Xóa recovery point/tài nguyên test nếu lab kết thúc.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Phần backup mình ghi theo góc nhìn restore được hay không, không chỉ tạo backup cho có. Khi làm báo cáo mình sẽ nhắc thêm retention và cleanup recovery point.
+Backup chỉ có ý nghĩa khi có thể restore được. Cần ghi rõ backup plan, vault, retention, restore test và cleanup recovery point sau khi hoàn tất lab.

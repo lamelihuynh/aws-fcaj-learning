@@ -1,8 +1,8 @@
 # Tuần 09 - Hugo report, reference và bàn giao
 
-## Mình tập trung vào
+## Trọng tâm
 
-Tuần này mình ghi lại các phần đã học, lab đã xem và link workshop cần mở lại khi viết báo cáo.
+Tuần này ghi lại các nội dung đã học, lab đã tham khảo và workshop cần đối chiếu khi viết báo cáo.
 
 ## Theo ngày
 
@@ -14,7 +14,7 @@ Tuần này mình ghi lại các phần đã học, lab đã xem và link worksh
 | Thứ 5 | 13/08/2026 | Kiểm tra link GitHub, link workshop, hình ảnh, code block và reference không còn trỏ về repo cũ. | [First Cloud AI Journey index](../First%20Cloud%20AI%20Journey/README.md) | Tài liệu nội bộ trong repo |
 | Thứ 6 | 14/08/2026 | Chuẩn bị gói nộp, checklist bàn giao và cleanup tài nguyên chi phí cao. | [Lab 100 Cleanup](../First%20Cloud%20AI%20Journey/Module%209/Hands-on%20Labs/lab-100-dr-cleanup-handover.md) | [000007 - Quản lý chi phí với AWS Budgets](https://000007.awsstudygroup.com/vi/)<br>[000100 - AWS Elastic Disaster Recovery Workshop](https://000100.awsstudygroup.com/vi/) |
 
-## Ghi chú cuối tuần
+## Kết quả chính
 
-- Tuần cuối mình tập trung làm report dễ đọc, link reference mở được và thuật ngữ Anh/Việt thống nhất.
-- Checklist cleanup giúp tránh để sót tài nguyên sau demo và làm phần bàn giao rõ ràng hơn.
+- Tuần cuối tập trung vào cấu trúc báo cáo, link reference, thuật ngữ Anh/Việt và tính nhất quán nội dung.
+- Checklist cleanup giúp tránh bỏ sót tài nguyên sau demo và làm rõ phần bàn giao.

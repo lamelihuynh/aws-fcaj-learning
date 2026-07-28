@@ -22,6 +22,6 @@ Cấp quyền cho ứng dụng trên EC2 truy cập dịch vụ AWS bằng IAM r
 - Không có credential dài hạn trong file cấu hình.
 - Cleanup EC2, role, bucket object sau lab.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Lab này là ví dụ rõ nhất cho việc không nhúng access key vào app. EC2 lấy quyền qua instance profile, còn quyền cụ thể vẫn phải giới hạn ở policy của role.
+Instance profile giúp ứng dụng trên EC2 truy cập dịch vụ AWS mà không cần hard-code access key. Policy của role vẫn phải được giới hạn theo nguyên tắc least privilege.

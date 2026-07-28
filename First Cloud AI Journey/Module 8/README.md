@@ -1,13 +1,13 @@
 # Module 08 - Serverless, observability và Infrastructure as Code
 
-## Phần này dùng để
+## Phạm vi module
 
 Phần này hỗ trợ phần xử lý report và vận hành: Lambda, API Gateway, S3 trigger, CloudWatch Logs/Metrics/Alarms/Dashboard, X-Ray, CloudFormation và runbook xử lý sự cố.
 
 ## File trong thư mục
 
-- File `module-...md`: mình dùng để xem lại lý thuyết và ý chính.
-- Thư mục `Hands-on Labs/`: mình để các bước thực hành, phần kiểm chứng và ghi chú cleanup.
+- File `module-...md`: lưu phần lý thuyết, thuật ngữ và ý chính.
+- Thư mục `Hands-on Labs/`: lưu luồng thực hành, kiểm chứng và ghi chú cleanup.
 
 ## Ghi chú chính
 
@@ -24,4 +24,4 @@ Phần này hỗ trợ phần xử lý report và vận hành: Lambda, API Gatew
 
 ## Gắn với Worklog
 
-Mình dùng phần này nhiều nhất ở **Tuần 5-7**. Một vài ý sẽ quay lại ở các tuần sau, nhất là khi ráp kiến trúc cuối kỳ.
+Module này được dùng chính trong **Tuần 5-7** và tiếp tục hỗ trợ các phần kiến trúc, vận hành hoặc cleanup ở những tuần sau.

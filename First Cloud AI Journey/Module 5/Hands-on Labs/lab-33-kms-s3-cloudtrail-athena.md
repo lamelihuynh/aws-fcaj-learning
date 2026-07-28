@@ -22,6 +22,6 @@ Hiểu encryption at rest bằng KMS và cách audit hành vi truy cập qua Clo
 - Có sự kiện audit khi truy cập hoặc dùng key.
 - Cleanup bucket object, Athena output và key nếu là key lab.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Lab này nối được ba phần mình hay học rời nhau: mã hóa bằng KMS, dữ liệu trên S3 và audit bằng CloudTrail/Athena. Phần key policy cần đọc kỹ vì sai là access denied ngay.
+Lab này liên kết mã hóa KMS, dữ liệu S3 và audit log qua CloudTrail/Athena. Key policy và IAM policy cần được kiểm tra cùng lúc khi gặp lỗi AccessDenied.

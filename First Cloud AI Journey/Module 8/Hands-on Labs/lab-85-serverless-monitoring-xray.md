@@ -22,6 +22,6 @@ Theo dõi ứng dụng serverless bằng CloudWatch metric/log và X-Ray trace.
 - Trace hoặc query giúp tìm điểm lỗi nhanh hơn.
 - Cleanup tracing/log không cần thiết sau lab.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Monitoring serverless cần log và trace vì không có server để vào xem trực tiếp. Mình ghi lại phần request id/trace để biết cách lần theo lỗi.
+Monitoring serverless cần dựa vào CloudWatch Logs, metrics và trace vì không có server để đăng nhập trực tiếp. Request id và trace id giúp lần theo lỗi nhanh hơn.

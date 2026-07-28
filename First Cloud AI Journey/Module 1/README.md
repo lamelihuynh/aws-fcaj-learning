@@ -1,13 +1,13 @@
 # Module 01 - Nền tảng cloud, tài khoản AWS và định danh
 
-## Phần này dùng để
+## Phạm vi module
 
 Phần này đặt nền cho toàn bộ báo cáo: hiểu tài khoản AWS, mô hình trách nhiệm chia sẻ, hạ tầng toàn cầu, cách truy cập Console/CLI và thói quen kiểm soát chi phí ngay từ đầu.
 
 ## File trong thư mục
 
-- File `module-...md`: mình dùng để xem lại lý thuyết và ý chính.
-- Thư mục `Hands-on Labs/`: mình để các bước thực hành, phần kiểm chứng và ghi chú cleanup.
+- File `module-...md`: lưu phần lý thuyết, thuật ngữ và ý chính.
+- Thư mục `Hands-on Labs/`: lưu luồng thực hành, kiểm chứng và ghi chú cleanup.
 
 ## Ghi chú chính
 
@@ -22,4 +22,4 @@ Phần này đặt nền cho toàn bộ báo cáo: hiểu tài khoản AWS, mô 
 
 ## Gắn với Worklog
 
-Mình dùng phần này nhiều nhất ở **Tuần 1**. Một vài ý sẽ quay lại ở các tuần sau, nhất là khi ráp kiến trúc cuối kỳ.
+Module này được dùng chính trong **Tuần 1** và tiếp tục hỗ trợ các phần kiến trúc, vận hành hoặc cleanup ở những tuần sau.

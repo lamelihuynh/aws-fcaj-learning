@@ -22,6 +22,6 @@ Thiết kế VPC cơ bản và hiểu routing, Internet Gateway, NAT Gateway, Se
 - Private instance không nhận inbound trực tiếp từ internet.
 - Có bảng kiểm tra route table/subnet association trước khi kết luận lỗi ứng dụng.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Phần VPC mình ghi lại theo thứ tự route trước, security sau để dễ debug. Nếu instance không kết nối được thì mình sẽ kiểm tra subnet association và route table trước khi sửa security group.
+Khi xử lý lỗi kết nối trong VPC, nên kiểm tra theo thứ tự: subnet association, route table, Internet Gateway hoặc NAT Gateway, sau đó mới đến Security Group và NACL.

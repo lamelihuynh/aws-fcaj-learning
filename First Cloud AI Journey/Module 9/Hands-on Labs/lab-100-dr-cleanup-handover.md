@@ -22,6 +22,6 @@ Dùng tư duy DR và cleanup để kiểm tra báo cáo cuối kỳ không bỏ 
 - Không còn tài nguyên chi phí cao ngoài ý muốn.
 - Báo cáo có link reference đến repo learning và workshop nguồn.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Đây là checklist cuối để tránh bỏ quên tài nguyên tốn phí. Mình sẽ kiểm tra ECS, ALB, NAT Gateway, RDS, S3, Lambda và CloudWatch trước khi xem như hoàn tất.
+Checklist cleanup cần kiểm tra các tài nguyên có chi phí duy trì như ECS service, ALB, NAT Gateway, RDS, S3, Lambda, CloudWatch log và IAM credential không dùng.

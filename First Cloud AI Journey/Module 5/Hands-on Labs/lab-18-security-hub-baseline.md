@@ -22,6 +22,6 @@ Bật Security Hub để quan sát security standard, score và finding mẫu tr
 - Phân biệt finding informational với high/critical.
 - Có ghi chú không coi score là kết luận duy nhất về bảo mật.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Security Hub cho mình một cách nhìn tổng quan về finding trong tài khoản. Khi đưa vào báo cáo mình sẽ không chỉ ghi score, mà ghi finding đó liên quan tài nguyên nào.
+Security Hub cung cấp finding theo chuẩn kiểm tra bảo mật. Khi dùng trong báo cáo, nên nêu resource, severity và hướng xử lý thay vì chỉ ghi security score.

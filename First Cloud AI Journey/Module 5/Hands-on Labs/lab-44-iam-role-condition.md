@@ -22,6 +22,6 @@ Thực hành assume role có điều kiện theo IP hoặc thời gian để hi�
 - Giải thích được vì sao deny xảy ra.
 - Cleanup role/policy/user lab.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Phần condition giúp mình hiểu policy không chỉ có allow action/resource. Khi gặp AccessDenied, mình sẽ kiểm tra thêm IP, thời gian hoặc condition key chứ không chỉ nhìn action.
+Policy condition có thể giới hạn assume role theo IP, thời gian hoặc context key. Khi gặp AccessDenied, cần kiểm tra cả action/resource lẫn condition trong policy evaluation.

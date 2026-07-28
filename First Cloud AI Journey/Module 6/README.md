@@ -1,13 +1,13 @@
 # Module 06 - RDS, cache và lựa chọn dịch vụ dữ liệu
 
-## Phần này dùng để
+## Phạm vi module
 
 Phần này dùng để phân loại workload dữ liệu: RDS/Aurora cho quan hệ, DynamoDB cho key-value/serverless, Redshift cho analytics, S3 data lake cho object scale lớn và ElastiCache Redis cho cache độ trễ thấp.
 
 ## File trong thư mục
 
-- File `module-...md`: mình dùng để xem lại lý thuyết và ý chính.
-- Thư mục `Hands-on Labs/`: mình để các bước thực hành, phần kiểm chứng và ghi chú cleanup.
+- File `module-...md`: lưu phần lý thuyết, thuật ngữ và ý chính.
+- Thư mục `Hands-on Labs/`: lưu luồng thực hành, kiểm chứng và ghi chú cleanup.
 
 ## Ghi chú chính
 
@@ -23,4 +23,4 @@ Phần này dùng để phân loại workload dữ liệu: RDS/Aurora cho quan h
 
 ## Gắn với Worklog
 
-Mình dùng phần này nhiều nhất ở **Tuần 3**. Một vài ý sẽ quay lại ở các tuần sau, nhất là khi ráp kiến trúc cuối kỳ.
+Module này được dùng chính trong **Tuần 3** và tiếp tục hỗ trợ các phần kiến trúc, vận hành hoặc cleanup ở những tuần sau.

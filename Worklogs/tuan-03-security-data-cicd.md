@@ -1,8 +1,8 @@
 # Tuần 03 - Security, dữ liệu và CI/CD nền tảng
 
-## Mình tập trung vào
+## Trọng tâm
 
-Tuần này mình ghi lại các phần đã học, lab đã xem và link workshop cần mở lại khi viết báo cáo.
+Tuần này ghi lại các nội dung đã học, lab đã tham khảo và workshop cần đối chiếu khi viết báo cáo.
 
 ## Theo ngày
 
@@ -14,7 +14,7 @@ Tuần này mình ghi lại các phần đã học, lab đã xem và link worksh
 | Thứ 5 | 02/07/2026 | So sánh RDS, Aurora, DynamoDB, Redshift, S3 data lake và ElastiCache theo workload. | [Module 6](../First%20Cloud%20AI%20Journey/Module%206/module-06-ly-thuyet-rds-cache-data-services.md)<br>[Lab 05 RDS](../First%20Cloud%20AI%20Journey/Module%206/Hands-on%20Labs/lab-05-rds-application-backup.md)<br>[Lab 61 Redis](../First%20Cloud%20AI%20Journey/Module%206/Hands-on%20Labs/lab-61-elasticache-redis.md) | [000005 - Bắt đầu với Amazon RDS](https://000005.awsstudygroup.com/vi/)<br>[000061 - Amazon ElastiCache Redis](https://000061.awsstudygroup.com/vi/) |
 | Thứ 6 | 03/07/2026 | Đọc luồng CI/CD container để chuẩn bị cho ECR/ECS ở các tuần sau. | [Module 7](../First%20Cloud%20AI%20Journey/Module%207/module-07-ly-thuyet-containers-ecr-ecs-cicd.md)<br>[Lab 17 CI/CD ECS](../First%20Cloud%20AI%20Journey/Module%207/Hands-on%20Labs/lab-17-ecs-cicd-pipeline.md) | [000017 - CI/CD với ECS Container](https://000017.awsstudygroup.com/vi/) |
 
-## Ghi chú cuối tuần
+## Kết quả chính
 
-- IAM nâng cao, KMS, Security Hub và GuardDuty là phần mình sẽ dùng lại nhiều trong security gate của workshop cuối kỳ.
-- Khi chọn database, mình cần nhìn workload trước: transaction, analytics, cache hay object/data lake.
+- IAM nâng cao, KMS, Security Hub và GuardDuty là nền tảng cho security gate trong workshop cuối kỳ.
+- Lựa chọn database cần dựa trên workload: transaction, analytics, cache hoặc object/data lake.

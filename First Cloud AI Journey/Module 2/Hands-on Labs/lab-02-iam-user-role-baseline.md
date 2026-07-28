@@ -21,6 +21,6 @@
 - Biết khi nào dùng IAM user và khi nào dùng role.
 - Không dùng root user cho lab hằng ngày.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-Sau lab này mình thấy IAM dễ nhầm nhất ở chỗ role không giống user. Khi viết báo cáo, mình sẽ giải thích role theo hướng ai được assume role và role đó được phép làm gì.
+IAM role khác IAM user ở trust policy và cơ chế assume role. Khi mô tả trong báo cáo, cần nêu rõ principal nào được assume role và role đó được cấp quyền gì.

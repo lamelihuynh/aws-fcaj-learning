@@ -1,6 +1,6 @@
-# First Cloud AI Journey - Bản đồ học tập cá nhân
+# First Cloud AI Journey - Bản đồ học tập
 
-Thư mục này là nơi mình gom lại phần học trong First Cloud AI Journey. Mình tách file lý thuyết và file lab riêng để lúc viết báo cáo dễ xem lại: file `module-...md` dùng cho khái niệm, còn `Hands-on Labs/lab-...md` dùng cho phần thực hành và kiểm chứng.
+Thư mục này tổng hợp nội dung học trong First Cloud AI Journey. File `module-...md` lưu phần lý thuyết và thuật ngữ, còn `Hands-on Labs/lab-...md` lưu luồng thực hành, kiểm chứng và cleanup.
 
 ## Bảng module
 
@@ -16,6 +16,6 @@ Thư mục này là nơi mình gom lại phần học trong First Cloud AI Journ
 | 8 | Serverless, observability và Infrastructure as Code | [Lý thuyết](Module%208/module-08-ly-thuyet-serverless-observability-iac.md) | [Lab tiêu biểu](Module%208/Hands-on%20Labs/lab-08-cloudwatch-logs-metrics-alarms.md) | Tuần 5-7 |
 | 9 | Kiến trúc DevSecOps, workshop và báo cáo cuối kỳ | [Lý thuyết](Module%209/module-09-ly-thuyet-architecture-devsecops-report.md) | [Lab tiêu biểu](Module%209/Hands-on%20Labs/lab-09-devsecops-architecture-checklist.md) | Tuần 8-9 |
 
-## Ghi chú khi dùng với Worklog
+## Liên kết với Worklog
 
-Khi viết Worklog, mình sẽ gắn từng ngày với đúng module hoặc lab đang học. Ví dụ: ngày học IAM Identity Center trỏ về Module 1 và `lab-12-iam-identity-center.md`; ngày học VPC trỏ về Module 2 và `lab-03-vpc-site-to-site-vpn.md`; ngày học ECS/Fargate trỏ về Module 7 và các lab `000016`, `000017`, `000096`.
+Mỗi ngày trong Worklog cần gắn với đúng module hoặc lab liên quan. Ví dụ: ngày học IAM Identity Center trỏ về Module 1 và `lab-12-iam-identity-center.md`; ngày học VPC trỏ về Module 2 và `lab-03-vpc-site-to-site-vpn.md`; ngày học ECS/Fargate trỏ về Module 7 và các lab `000016`, `000017`, `000096`.

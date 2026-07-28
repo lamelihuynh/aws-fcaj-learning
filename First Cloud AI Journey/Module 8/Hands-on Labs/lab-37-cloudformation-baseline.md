@@ -22,6 +22,6 @@ Làm quen Infrastructure as Code bằng CloudFormation template và hiểu drift
 - Hiểu vì sao IaC giúp tái lập lab/workshop.
 - Cleanup bằng stack deletion an toàn.
 
-## Ghi chú
+## Ghi chú kỹ thuật
 
-CloudFormation giúp mình gom tài nguyên vào một stack dễ tạo lại và dễ xóa. Phần này sẽ dùng lại khi nói về IaC và drift trong release flow.
+CloudFormation gom tài nguyên vào stack để dễ tái tạo, cập nhật và cleanup. Drift detection giúp phát hiện tài nguyên bị sửa thủ công ngoài template.
