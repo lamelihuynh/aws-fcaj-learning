@@ -1,10 +1,10 @@
 # Tuần 03 - Security, dữ liệu và CI/CD nền tảng
 
-## Mục tiêu tuần
+## Mình tập trung vào
 
-Tuần này ghi lại phần học và thực hành theo lộ trình AWS FCAJ. Reference được tách thành hai lớp: file minh chứng trong repo này và workshop cộng đồng AWS Study Group để người đọc biết chính xác nội dung học dựa trên nguồn nào.
+Tuần này mình ghi lại các phần đã học, lab đã xem và link workshop cần mở lại khi viết báo cáo.
 
-## Bảng tham chiếu theo ngày
+## Theo ngày
 
 | Ngày | Thời gian | Nội dung thực hiện | Minh chứng trong repo | Workshop/Tài liệu cộng đồng |
 | --- | --- | --- | --- | --- |
@@ -14,8 +14,7 @@ Tuần này ghi lại phần học và thực hành theo lộ trình AWS FCAJ. R
 | Thứ 5 | 02/07/2026 | So sánh RDS, Aurora, DynamoDB, Redshift, S3 data lake và ElastiCache theo workload. | [Module 6](../First%20Cloud%20AI%20Journey/Module%206/module-06-ly-thuyet-rds-cache-data-services.md)<br>[Lab 05 RDS](../First%20Cloud%20AI%20Journey/Module%206/Hands-on%20Labs/lab-05-rds-application-backup.md)<br>[Lab 61 Redis](../First%20Cloud%20AI%20Journey/Module%206/Hands-on%20Labs/lab-61-elasticache-redis.md) | [000005 - Bắt đầu với Amazon RDS](https://000005.awsstudygroup.com/vi/)<br>[000061 - Amazon ElastiCache Redis](https://000061.awsstudygroup.com/vi/) |
 | Thứ 6 | 03/07/2026 | Đọc luồng CI/CD container để chuẩn bị cho ECR/ECS ở các tuần sau. | [Module 7](../First%20Cloud%20AI%20Journey/Module%207/module-07-ly-thuyet-containers-ecr-ecs-cicd.md)<br>[Lab 17 CI/CD ECS](../First%20Cloud%20AI%20Journey/Module%207/Hands-on%20Labs/lab-17-ecs-cicd-pipeline.md) | [000017 - CI/CD với ECS Container](https://000017.awsstudygroup.com/vi/) |
 
-## Kết quả rút ra
+## Ghi chú cuối tuần
 
-- Nội dung trong tuần đã được viết lại bằng tiếng Việt theo góc nhìn cá nhân, không giữ nguyên cấu trúc câu của workshop gốc.
-- Mỗi ngày có ít nhất một minh chứng nội bộ hoặc workshop liên quan để khi đưa vào Hugo Worklog không bị trỏ sai module/lab.
-- Các lab có cleanup hoặc cảnh báo chi phí để phù hợp với môi trường thực tập và tài khoản cá nhân.
+- IAM nâng cao, KMS, Security Hub và GuardDuty là phần mình sẽ dùng lại nhiều trong security gate của workshop cuối kỳ.
+- Khi chọn database, mình cần nhìn workload trước: transaction, analytics, cache hay object/data lake.

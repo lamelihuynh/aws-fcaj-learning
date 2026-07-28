@@ -1,14 +1,14 @@
 # Lab 98 - GuardDuty finding practice
 
-## Nguồn tham khảo chính
+## Tài liệu tham khảo
 
-- Workshop gốc: [000098 - Làm quen với Amazon GuardDuty qua thực hành](https://000098.awsstudygroup.com/vi/)
+- Workshop: [000098 - Làm quen với Amazon GuardDuty qua thực hành](https://000098.awsstudygroup.com/vi/)
 
-## Mục tiêu cá nhân
+## Mục tiêu
 
 Làm quen với GuardDuty, cách phát hiện bất thường và cách đọc finding trong ngữ cảnh vận hành.
 
-## Luồng thực hành đã viết lại
+## Luồng thực hành
 
 1. Bật GuardDuty trong Region lab.
 2. Tạo sample finding hoặc làm theo luồng thực hành an toàn trong workshop.
@@ -16,12 +16,12 @@ Làm quen với GuardDuty, cách phát hiện bất thường và cách đọc f
 4. Liên hệ finding với dashboard/report security gate.
 5. Tắt GuardDuty nếu không dùng tiếp để kiểm soát chi phí.
 
-## Kiểm chứng cần có
+## Kiểm chứng
 
 - Finding xuất hiện và đọc được ngữ cảnh.
 - Có phân loại xử lý theo severity.
 - Có cleanup hoặc ghi chú trạng thái dịch vụ sau lab.
 
-## Ghi chú cho báo cáo
+## Ghi chú
 
-Lab này không sao chép nguyên văn workshop gốc. Nội dung được dùng như minh chứng cá nhân: tôi ghi lại mục tiêu, điểm cần kiểm chứng, lỗi cần tránh và cleanup sau khi thực hành. Khi đưa vào Worklog, link reference phải trỏ về đúng file lab này và workshop AWS Study Group tương ứng.
+GuardDuty mình xem như nguồn cảnh báo để tập đọc severity, resource và hướng xử lý. Phần này sẽ dùng lại khi viết security finding trong workshop cuối kỳ.

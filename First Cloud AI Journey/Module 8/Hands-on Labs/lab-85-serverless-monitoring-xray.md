@@ -1,14 +1,14 @@
 # Lab 85 - Monitoring serverless với CloudWatch và X-Ray
 
-## Nguồn tham khảo chính
+## Tài liệu tham khảo
 
-- Workshop gốc: [000085 - Monitoring Serverless app với CloudWatch và X-Ray](https://000085.awsstudygroup.com/vi/)
+- Workshop: [000085 - Monitoring Serverless app với CloudWatch và X-Ray](https://000085.awsstudygroup.com/vi/)
 
-## Mục tiêu cá nhân
+## Mục tiêu
 
 Theo dõi ứng dụng serverless bằng CloudWatch metric/log và X-Ray trace.
 
-## Luồng thực hành đã viết lại
+## Luồng thực hành
 
 1. Bật log cho Lambda/API nếu chưa có.
 2. Tạo lỗi hoặc request mẫu để quan sát metric/error.
@@ -16,12 +16,12 @@ Theo dõi ứng dụng serverless bằng CloudWatch metric/log và X-Ray trace.
 4. Viết query tìm lỗi theo request id hoặc function name.
 5. Ghi lại cách áp dụng cho Lambda aggregator ở dự án cuối kỳ.
 
-## Kiểm chứng cần có
+## Kiểm chứng
 
 - Có log và metric cho Lambda/API.
 - Trace hoặc query giúp tìm điểm lỗi nhanh hơn.
 - Cleanup tracing/log không cần thiết sau lab.
 
-## Ghi chú cho báo cáo
+## Ghi chú
 
-Lab này không sao chép nguyên văn workshop gốc. Nội dung được dùng như minh chứng cá nhân: tôi ghi lại mục tiêu, điểm cần kiểm chứng, lỗi cần tránh và cleanup sau khi thực hành. Khi đưa vào Worklog, link reference phải trỏ về đúng file lab này và workshop AWS Study Group tương ứng.
+Monitoring serverless cần log và trace vì không có server để vào xem trực tiếp. Mình ghi lại phần request id/trace để biết cách lần theo lỗi.

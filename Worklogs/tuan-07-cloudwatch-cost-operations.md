@@ -1,10 +1,10 @@
 # Tuần 07 - CloudWatch, cost guardrail và vận hành
 
-## Mục tiêu tuần
+## Mình tập trung vào
 
-Tuần này ghi lại phần học và thực hành theo lộ trình AWS FCAJ. Reference được tách thành hai lớp: file minh chứng trong repo này và workshop cộng đồng AWS Study Group để người đọc biết chính xác nội dung học dựa trên nguồn nào.
+Tuần này mình ghi lại các phần đã học, lab đã xem và link workshop cần mở lại khi viết báo cáo.
 
-## Bảng tham chiếu theo ngày
+## Theo ngày
 
 | Ngày | Thời gian | Nội dung thực hiện | Minh chứng trong repo | Workshop/Tài liệu cộng đồng |
 | --- | --- | --- | --- | --- |
@@ -14,8 +14,7 @@ Tuần này ghi lại phần học và thực hành theo lộ trình AWS FCAJ. R
 | Thứ 5 | 30/07/2026 | Tạo ghi chú cost guardrail bằng AWS Budgets, threshold notification và cleanup cadence. | [Lab 01 Free Tier](../First%20Cloud%20AI%20Journey/Module%201/Hands-on%20Labs/lab-01-free-tier-budget-guardrail.md) | [000007 - Quản lý chi phí với AWS Budgets](https://000007.awsstudygroup.com/vi/) |
 | Thứ 6 | 31/07/2026 | Viết incident drill: phát hiện lỗi, xem deployment, đọc log, kiểm tra target health và rollback/scale down. | [Lab 31 SSM](../First%20Cloud%20AI%20Journey/Module%203/Hands-on%20Labs/lab-31-systems-manager-run-command.md)<br>[Lab 98 GuardDuty](../First%20Cloud%20AI%20Journey/Module%205/Hands-on%20Labs/lab-98-guardduty-finding-practice.md) | [000031 - AWS Systems Manager](https://000031.awsstudygroup.com/vi/)<br>[000098 - Làm quen với Amazon GuardDuty qua thực hành](https://000098.awsstudygroup.com/vi/) |
 
-## Kết quả rút ra
+## Ghi chú cuối tuần
 
-- Nội dung trong tuần đã được viết lại bằng tiếng Việt theo góc nhìn cá nhân, không giữ nguyên cấu trúc câu của workshop gốc.
-- Mỗi ngày có ít nhất một minh chứng nội bộ hoặc workshop liên quan để khi đưa vào Hugo Worklog không bị trỏ sai module/lab.
-- Các lab có cleanup hoặc cảnh báo chi phí để phù hợp với môi trường thực tập và tài khoản cá nhân.
+- CloudWatch phải được chuẩn bị trước khi lỗi xảy ra: log group, query, metric và alarm cần có từ đầu.
+- Cost guardrail là một phần vận hành, nhất là với NAT Gateway, ALB, RDS hoặc log giữ quá lâu.

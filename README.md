@@ -1,14 +1,14 @@
 # AWS FCAJ Learning - Kho minh chứng cá nhân
 
-Repo này lưu ghi chú học tập, module lý thuyết, lab thực hành và worklog cho báo cáo AWS First Cloud AI Journey. Nội dung được viết bằng tiếng Việt để dùng trực tiếp với bản báo cáo, đồng thời các link reference trỏ về đúng workshop AWS Study Group hoặc tài liệu AWS chính thức.
+Repo này là nơi mình gom lại ghi chú học AWS FCAJ: module lý thuyết, lab thực hành và worklog theo tuần. Mình viết bằng tiếng Việt để lúc đưa vào báo cáo không phải dịch lại quá nhiều.
 
-## Quy ước phân biệt module và lab
+## Cách mình sắp xếp
 
-- `module-xx-ly-thuyet-...md`: ghi chú lý thuyết, dùng để giải thích khái niệm, quyết định kiến trúc và cách áp dụng vào báo cáo.
-- `Hands-on Labs/lab-xx-...md`: bài thực hành bám theo workshop cộng đồng, có mục tiêu cá nhân, luồng kiểm chứng, lỗi cần tránh và cleanup.
-- `Worklogs/tuan-xx-...md`: nhật ký học theo tuần, dùng để liên kết từng ngày trong Hugo Worklog với đúng module/lab.
+- `module-xx-ly-thuyet-...md`: ghi chú lý thuyết và ý chính cần nhớ.
+- `Hands-on Labs/lab-xx-...md`: phần thực hành, kiểm chứng, lỗi cần tránh và cleanup.
+- `Worklogs/tuan-xx-...md`: nhật ký học theo tuần để nối lại với Hugo Worklog.
 
-Cách đặt tên này cố ý khác với bản mẫu cũ, nhưng vẫn giữ mã lab `12`, `57`, `98`... để truy vết được workshop gốc.
+Mình vẫn giữ mã lab như `12`, `57`, `98` trong tên file để nhìn vào là biết đang tham khảo workshop nào.
 
 ## Cấu trúc repo
 
@@ -48,6 +48,6 @@ aws-fcaj-learning/
 - [Tuần 08 - Kiến trúc DevSecOps và workshop cuối kỳ](Worklogs/tuan-08-devsecops-architecture-workshop.md)
 - [Tuần 09 - Hugo report, reference và bàn giao](Worklogs/tuan-09-hugo-report-cleanup.md)
 
-## Ghi chú đạo văn
+## Ghi chú
 
-Repo này không copy nội dung của repo mẫu hoặc workshop gốc. Workshop được dùng như tài liệu tham khảo; phần trong repo chỉ ghi lại cách mình hiểu, cách mình kiểm chứng và cách mình liên hệ với báo cáo thực tập.
+Mỗi lab đều có link workshop gốc để mình dễ mở lại khi cần xem chi tiết. Phần ghi chú trong repo là bản tóm tắt theo cách mình học và cách mình muốn dùng lại trong báo cáo.

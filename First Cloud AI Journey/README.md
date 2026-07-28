@@ -1,11 +1,6 @@
 # First Cloud AI Journey - Bản đồ học tập cá nhân
 
-Thư mục này là phần minh chứng học tập cho báo cáo AWS FCAJ. Mình tách rõ hai loại nội dung:
-
-- `module-xx-ly-thuyet-...md`: ghi chú lý thuyết, khái niệm, lựa chọn kiến trúc và cách dùng trong báo cáo.
-- `Hands-on Labs/lab-xx-...md`: bài thực hành bám theo workshop AWS Study Group, có mục tiêu cá nhân, luồng kiểm chứng và cleanup.
-
-Cách viết này giúp repo không giống bản mẫu cũ chỉ gom chung file module và file lab, đồng thời vẫn giữ được khả năng truy vết về workshop cộng đồng.
+Thư mục này là nơi mình gom lại phần học trong First Cloud AI Journey. Mình tách file lý thuyết và file lab riêng để lúc viết báo cáo dễ xem lại: file `module-...md` dùng cho khái niệm, còn `Hands-on Labs/lab-...md` dùng cho phần thực hành và kiểm chứng.
 
 ## Bảng module
 
@@ -21,6 +16,6 @@ Cách viết này giúp repo không giống bản mẫu cũ chỉ gom chung file
 | 8 | Serverless, observability và Infrastructure as Code | [Lý thuyết](Module%208/module-08-ly-thuyet-serverless-observability-iac.md) | [Lab tiêu biểu](Module%208/Hands-on%20Labs/lab-08-cloudwatch-logs-metrics-alarms.md) | Tuần 5-7 |
 | 9 | Kiến trúc DevSecOps, workshop và báo cáo cuối kỳ | [Lý thuyết](Module%209/module-09-ly-thuyet-architecture-devsecops-report.md) | [Lab tiêu biểu](Module%209/Hands-on%20Labs/lab-09-devsecops-architecture-checklist.md) | Tuần 8-9 |
 
-## Cách dùng với Worklog
+## Ghi chú khi dùng với Worklog
 
-Mỗi ngày trong Worklog trỏ về đúng module hoặc lab đang học. Ví dụ: ngày học IAM Identity Center trỏ về Module 1 và `lab-12-iam-identity-center.md`; ngày học VPC trỏ về Module 2 và `lab-03-vpc-site-to-site-vpn.md`; ngày học ECS/Fargate trỏ về Module 7 và các lab `000016`, `000017`, `000096`.
+Khi viết Worklog, mình sẽ gắn từng ngày với đúng module hoặc lab đang học. Ví dụ: ngày học IAM Identity Center trỏ về Module 1 và `lab-12-iam-identity-center.md`; ngày học VPC trỏ về Module 2 và `lab-03-vpc-site-to-site-vpn.md`; ngày học ECS/Fargate trỏ về Module 7 và các lab `000016`, `000017`, `000096`.

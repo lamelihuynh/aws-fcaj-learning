@@ -1,10 +1,10 @@
 # Tuần 08 - Kiến trúc DevSecOps và workshop cuối kỳ
 
-## Mục tiêu tuần
+## Mình tập trung vào
 
-Tuần này ghi lại phần học và thực hành theo lộ trình AWS FCAJ. Reference được tách thành hai lớp: file minh chứng trong repo này và workshop cộng đồng AWS Study Group để người đọc biết chính xác nội dung học dựa trên nguồn nào.
+Tuần này mình ghi lại các phần đã học, lab đã xem và link workshop cần mở lại khi viết báo cáo.
 
-## Bảng tham chiếu theo ngày
+## Theo ngày
 
 | Ngày | Thời gian | Nội dung thực hiện | Minh chứng trong repo | Workshop/Tài liệu cộng đồng |
 | --- | --- | --- | --- | --- |
@@ -14,8 +14,7 @@ Tuần này ghi lại phần học và thực hành theo lộ trình AWS FCAJ. R
 | Thứ 5 | 06/08/2026 | Bổ sung troubleshooting cho IAM permission, ECR login, ALB health check, S3 trigger và log thiếu. | [Lab 48 Instance Profile](../First%20Cloud%20AI%20Journey/Module%205/Hands-on%20Labs/lab-48-ec2-instance-profile.md)<br>[Lab 33 KMS](../First%20Cloud%20AI%20Journey/Module%205/Hands-on%20Labs/lab-33-kms-s3-cloudtrail-athena.md) | [000048 - Ứng dụng truy cập dịch vụ AWS với IAM Role](https://000048.awsstudygroup.com/vi/)<br>[000033 - Mã hóa lưu trữ với AWS KMS](https://000033.awsstudygroup.com/vi/) |
 | Thứ 6 | 07/08/2026 | Chuẩn bị flow thuyết trình, demo backup plan, screenshot checklist và cleanup cost. | [Lab 100 Cleanup](../First%20Cloud%20AI%20Journey/Module%209/Hands-on%20Labs/lab-100-dr-cleanup-handover.md) | [000007 - Quản lý chi phí với AWS Budgets](https://000007.awsstudygroup.com/vi/)<br>[000100 - AWS Elastic Disaster Recovery Workshop](https://000100.awsstudygroup.com/vi/) |
 
-## Kết quả rút ra
+## Ghi chú cuối tuần
 
-- Nội dung trong tuần đã được viết lại bằng tiếng Việt theo góc nhìn cá nhân, không giữ nguyên cấu trúc câu của workshop gốc.
-- Mỗi ngày có ít nhất một minh chứng nội bộ hoặc workshop liên quan để khi đưa vào Hugo Worklog không bị trỏ sai module/lab.
-- Các lab có cleanup hoặc cảnh báo chi phí để phù hợp với môi trường thực tập và tài khoản cá nhân.
+- Kiến trúc cuối kỳ cần nối được từng mũi tên với quyền IAM, network route, trigger hoặc artifact cụ thể.
+- Workshop dễ theo hơn khi mỗi bước đều có expected result, troubleshooting và cleanup riêng.

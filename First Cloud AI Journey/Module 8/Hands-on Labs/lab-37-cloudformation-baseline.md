@@ -1,14 +1,14 @@
 # Lab 37 - CloudFormation baseline và drift awareness
 
-## Nguồn tham khảo chính
+## Tài liệu tham khảo
 
-- Workshop gốc: [000037 - AWS CloudFormation](https://000037.awsstudygroup.com/vi/)
+- Workshop: [000037 - AWS CloudFormation](https://000037.awsstudygroup.com/vi/)
 
-## Mục tiêu cá nhân
+## Mục tiêu
 
 Làm quen Infrastructure as Code bằng CloudFormation template và hiểu drift detection ở mức cơ bản.
 
-## Luồng thực hành đã viết lại
+## Luồng thực hành
 
 1. Đọc cấu trúc template: Parameters, Resources, Outputs.
 2. Triển khai stack nhỏ như S3/IAM/Lambda hoặc tài nguyên workshop.
@@ -16,12 +16,12 @@ Làm quen Infrastructure as Code bằng CloudFormation template và hiểu drift
 4. Chạy hoặc ghi chú drift detection để biết tài nguyên lệch khỏi template.
 5. Cleanup stack để xóa tài nguyên cùng nhóm.
 
-## Kiểm chứng cần có
+## Kiểm chứng
 
 - Stack tạo thành công và có output rõ ràng.
 - Hiểu vì sao IaC giúp tái lập lab/workshop.
 - Cleanup bằng stack deletion an toàn.
 
-## Ghi chú cho báo cáo
+## Ghi chú
 
-Lab này không sao chép nguyên văn workshop gốc. Nội dung được dùng như minh chứng cá nhân: tôi ghi lại mục tiêu, điểm cần kiểm chứng, lỗi cần tránh và cleanup sau khi thực hành. Khi đưa vào Worklog, link reference phải trỏ về đúng file lab này và workshop AWS Study Group tương ứng.
+CloudFormation giúp mình gom tài nguyên vào một stack dễ tạo lại và dễ xóa. Phần này sẽ dùng lại khi nói về IaC và drift trong release flow.

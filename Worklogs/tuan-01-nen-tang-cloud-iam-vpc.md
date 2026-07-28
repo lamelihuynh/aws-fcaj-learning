@@ -1,10 +1,10 @@
 # Tuần 01 - Nền tảng cloud, IAM Identity Center và VPC
 
-## Mục tiêu tuần
+## Mình tập trung vào
 
-Tuần này ghi lại phần học và thực hành theo lộ trình AWS FCAJ. Reference được tách thành hai lớp: file minh chứng trong repo này và workshop cộng đồng AWS Study Group để người đọc biết chính xác nội dung học dựa trên nguồn nào.
+Tuần này mình ghi lại các phần đã học, lab đã xem và link workshop cần mở lại khi viết báo cáo.
 
-## Bảng tham chiếu theo ngày
+## Theo ngày
 
 | Ngày | Thời gian | Nội dung thực hiện | Minh chứng trong repo | Workshop/Tài liệu cộng đồng |
 | --- | --- | --- | --- | --- |
@@ -14,8 +14,7 @@ Tuần này ghi lại phần học và thực hành theo lộ trình AWS FCAJ. R
 | Thứ 5 | 18/06/2026 | So sánh Security Group/NACL và ghi lại cách dùng VPC Flow Logs để phân tích mạng. | [Module 2](../First%20Cloud%20AI%20Journey/Module%202/module-02-ly-thuyet-vpc-networking-security.md)<br>[Lab 74 Flow Logs](../First%20Cloud%20AI%20Journey/Module%202/Hands-on%20Labs/lab-74-vpc-flow-logs.md) | [000074 - Giám sát hạ tầng mạng với VPC Flow Logs](https://000074.awsstudygroup.com/vi/) |
 | Thứ 6 | 19/06/2026 | Tổng hợp mô hình VPC Peering, Transit Gateway, VPN, Direct Connect và các loại Load Balancer. | [Module 2](../First%20Cloud%20AI%20Journey/Module%202/module-02-ly-thuyet-vpc-networking-security.md) | [000003 - Amazon VPC và Site-to-Site VPN](https://000003.awsstudygroup.com/vi/) |
 
-## Kết quả rút ra
+## Ghi chú cuối tuần
 
-- Nội dung trong tuần đã được viết lại bằng tiếng Việt theo góc nhìn cá nhân, không giữ nguyên cấu trúc câu của workshop gốc.
-- Mỗi ngày có ít nhất một minh chứng nội bộ hoặc workshop liên quan để khi đưa vào Hugo Worklog không bị trỏ sai module/lab.
-- Các lab có cleanup hoặc cảnh báo chi phí để phù hợp với môi trường thực tập và tài khoản cá nhân.
+- Nắm được luồng bắt đầu một tài khoản AWS: kiểm tra chi phí, bảo vệ root user, sau đó mới tạo quyền truy cập cho công việc hằng ngày.
+- VPC cần đọc theo thứ tự CIDR, subnet, route table rồi mới tới security rule; như vậy lúc debug sẽ đỡ rối hơn.

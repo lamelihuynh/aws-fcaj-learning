@@ -1,10 +1,10 @@
 # Tuần 05 - ECS Fargate, S3 report bucket và Lambda aggregator
 
-## Mục tiêu tuần
+## Mình tập trung vào
 
-Tuần này ghi lại phần học và thực hành theo lộ trình AWS FCAJ. Reference được tách thành hai lớp: file minh chứng trong repo này và workshop cộng đồng AWS Study Group để người đọc biết chính xác nội dung học dựa trên nguồn nào.
+Tuần này mình ghi lại các phần đã học, lab đã xem và link workshop cần mở lại khi viết báo cáo.
 
-## Bảng tham chiếu theo ngày
+## Theo ngày
 
 | Ngày | Thời gian | Nội dung thực hiện | Minh chứng trong repo | Workshop/Tài liệu cộng đồng |
 | --- | --- | --- | --- | --- |
@@ -14,8 +14,7 @@ Tuần này ghi lại phần học và thực hành theo lộ trình AWS FCAJ. R
 | Thứ 5 | 16/07/2026 | Tạo S3 report bucket cho scan output, bật encryption/versioning/lifecycle và policy least privilege. | [Module 4](../First%20Cloud%20AI%20Journey/Module%204/module-04-ly-thuyet-s3-storage-backup-dr.md)<br>[Lab 57 S3](../First%20Cloud%20AI%20Journey/Module%204/Hands-on%20Labs/lab-57-s3-cloudfront-static-website.md)<br>[Lab 33 KMS](../First%20Cloud%20AI%20Journey/Module%205/Hands-on%20Labs/lab-33-kms-s3-cloudtrail-athena.md) | [000057 - Khởi đầu với Amazon S3](https://000057.awsstudygroup.com/vi/)<br>[000033 - Mã hóa lưu trữ với AWS KMS](https://000033.awsstudygroup.com/vi/)<br>[000069 - Thực hành bảo mật S3](https://000069.awsstudygroup.com/vi/) |
 | Thứ 6 | 17/07/2026 | Thiết kế Lambda aggregator xử lý object report mới, tổng hợp finding và log ra CloudWatch. | [Module 8](../First%20Cloud%20AI%20Journey/Module%208/module-08-ly-thuyet-serverless-observability-iac.md)<br>[Lab 66 Lambda](../First%20Cloud%20AI%20Journey/Module%208/Hands-on%20Labs/lab-66-lambda-api-gateway-sam.md) | [000066 - Serverless với Lambda, API Gateway và SAM](https://000066.awsstudygroup.com/vi/)<br>[000085 - Monitoring Serverless app với CloudWatch và X-Ray](https://000085.awsstudygroup.com/vi/) |
 
-## Kết quả rút ra
+## Ghi chú cuối tuần
 
-- Nội dung trong tuần đã được viết lại bằng tiếng Việt theo góc nhìn cá nhân, không giữ nguyên cấu trúc câu của workshop gốc.
-- Mỗi ngày có ít nhất một minh chứng nội bộ hoặc workshop liên quan để khi đưa vào Hugo Worklog không bị trỏ sai module/lab.
-- Các lab có cleanup hoặc cảnh báo chi phí để phù hợp với môi trường thực tập và tài khoản cá nhân.
+- ECS Fargate phù hợp với demo vì không phải quản lý node, nhưng vẫn phải làm kỹ phần subnet, security group, ALB và log.
+- S3 report bucket và Lambda aggregator giúp mình gom security report thành một luồng dễ giải thích hơn.

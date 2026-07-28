@@ -1,10 +1,10 @@
 # Tuần 09 - Hugo report, reference và bàn giao
 
-## Mục tiêu tuần
+## Mình tập trung vào
 
-Tuần này ghi lại phần học và thực hành theo lộ trình AWS FCAJ. Reference được tách thành hai lớp: file minh chứng trong repo này và workshop cộng đồng AWS Study Group để người đọc biết chính xác nội dung học dựa trên nguồn nào.
+Tuần này mình ghi lại các phần đã học, lab đã xem và link workshop cần mở lại khi viết báo cáo.
 
-## Bảng tham chiếu theo ngày
+## Theo ngày
 
 | Ngày | Thời gian | Nội dung thực hiện | Minh chứng trong repo | Workshop/Tài liệu cộng đồng |
 | --- | --- | --- | --- | --- |
@@ -14,8 +14,7 @@ Tuần này ghi lại phần học và thực hành theo lộ trình AWS FCAJ. R
 | Thứ 5 | 13/08/2026 | Kiểm tra link GitHub, link workshop, hình ảnh, code block và reference không còn trỏ về repo cũ. | [First Cloud AI Journey index](../First%20Cloud%20AI%20Journey/README.md) | Tài liệu nội bộ trong repo |
 | Thứ 6 | 14/08/2026 | Chuẩn bị gói nộp, checklist bàn giao và cleanup tài nguyên chi phí cao. | [Lab 100 Cleanup](../First%20Cloud%20AI%20Journey/Module%209/Hands-on%20Labs/lab-100-dr-cleanup-handover.md) | [000007 - Quản lý chi phí với AWS Budgets](https://000007.awsstudygroup.com/vi/)<br>[000100 - AWS Elastic Disaster Recovery Workshop](https://000100.awsstudygroup.com/vi/) |
 
-## Kết quả rút ra
+## Ghi chú cuối tuần
 
-- Nội dung trong tuần đã được viết lại bằng tiếng Việt theo góc nhìn cá nhân, không giữ nguyên cấu trúc câu của workshop gốc.
-- Mỗi ngày có ít nhất một minh chứng nội bộ hoặc workshop liên quan để khi đưa vào Hugo Worklog không bị trỏ sai module/lab.
-- Các lab có cleanup hoặc cảnh báo chi phí để phù hợp với môi trường thực tập và tài khoản cá nhân.
+- Tuần cuối mình tập trung làm report dễ đọc, link reference mở được và thuật ngữ Anh/Việt thống nhất.
+- Checklist cleanup giúp tránh để sót tài nguyên sau demo và làm phần bàn giao rõ ràng hơn.
